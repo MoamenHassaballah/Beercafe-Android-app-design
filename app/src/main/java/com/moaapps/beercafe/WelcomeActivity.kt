@@ -15,7 +15,7 @@ class WelcomeActivity : AppCompatActivity() {
         }
 
         findViewById<CardView>(R.id.sign_up).setOnClickListener {
-            startActivity( Intent(this, SignInActivity::class.java))
+            startActivity( Intent(this, SignUpActivity::class.java))
         }
     }
 }
